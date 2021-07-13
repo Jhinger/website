@@ -1,8 +1,9 @@
+import './App.css'
 
 const App = () => {
 	return (
-		<div>
-			Hello World.
+		<div className="di">
+			<section></section>
 		</div>
 	)
 }
