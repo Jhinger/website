@@ -1,6 +1,7 @@
 .intro {
     width: 100%;
-    height: 100vh;
+    height: 84vh;
+    border: 2px solid blue;
 }
 
 .container {
@@ -11,37 +12,37 @@
 }
 
 .mountBack {
-    width: 100vw;
-    height: 40vh;
+    width: 100%;
+    height: 20vh;
     position: absolute;
     left: 0;
-    bottom: 10vh;
+    bottom: 26vh;
     background-image: url('../static/MountainBack.png');
     background-size: contain;
     background-repeat: repeat-x;
 }
 
 .mountFront {
-    width: 100vw;
-    height: 40%;
+    width: 100%;
+    height: 20vh;
     position: absolute;
     left: 0;
-    bottom: -5vh;
+    bottom: 15vh;
     background-image: url('../static/MountainFront.png');
     background-size: contain;
     background-repeat: repeat-x;
 }
 
 .mountGlow {
-    z-index: -1;
     -webkit-box-shadow:0px 0px 154px 119px rgba(74,175,247,0.67);
     -moz-box-shadow: 0px 0px 154px 119px rgba(74,175,247,0.67);
     box-shadow: 0px 0px 154px 119px rgba(74,175,247,0.67);
-    width: 100vw;
-    height: 1rem;
+    width: 100%;
+    height: 0.1rem;
+    opacity: 1;
     position: absolute;
     left: 0;
-    bottom: 10rem;
+    bottom: 13rem;
     -webkit-animation: glow linear 1s infinite; 
     animation: glow linear 3s infinite;
 }
@@ -96,11 +97,12 @@
 /* Mobile */
 @media only screen and (max-width: 600px) {
     .container {
+        z-index: 2;
         display: flex;
         align-items: flex-end;
         width: 100%;
-        height: 38rem;
-        border: 2px solid black;
+        height: 100vh;
+        border: 2px solid purple;
     }
 
     .mountBack {

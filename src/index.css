@@ -10,6 +10,8 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   overflow-y: scroll;
+  min-width: fit-content;
+  
 }
 
 body::-webkit-scrollbar-track
