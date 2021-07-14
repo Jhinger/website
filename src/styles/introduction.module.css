@@ -1,3 +1,8 @@
+.intro {
+    width: 100%;
+    height: 100vh;
+}
+
 .container {
     display: flex;
     align-items: flex-end;
@@ -7,7 +12,7 @@
 
 .mountBack {
     width: 100vw;
-    height: 45%;
+    height: 40vh;
     position: absolute;
     left: 0;
     bottom: 10vh;
@@ -18,7 +23,7 @@
 
 .mountFront {
     width: 100vw;
-    height: 45%;
+    height: 40%;
     position: absolute;
     left: 0;
     bottom: -5vh;
@@ -28,6 +33,7 @@
 }
 
 .mountGlow {
+    z-index: -1;
     -webkit-box-shadow:0px 0px 154px 119px rgba(74,175,247,0.67);
     -moz-box-shadow: 0px 0px 154px 119px rgba(74,175,247,0.67);
     box-shadow: 0px 0px 154px 119px rgba(74,175,247,0.67);
@@ -38,20 +44,6 @@
     bottom: 10rem;
     -webkit-animation: glow linear 1s infinite; 
     animation: glow linear 3s infinite;
-}
-
-/* Mobile */
-@media only screen and (max-width: 600px) {
-    .mountBack {
-        width: 100vw;
-        height: 40%;
-        position: absolute;
-        left: 0;
-        bottom: 10vh;
-        background-image: url('../static/MountainBack.png');
-        background-size: contain;
-        background-repeat: repeat-x;
-    }
 }
 
 /* Mount Glow Animation */
@@ -98,5 +90,27 @@
         -webkit-box-shadow:0px 0px 154px 119px rgba(74,175,247,0.67);
         -moz-box-shadow: 0px 0px 154px 119px rgba(74,175,247,0.67);
         box-shadow: 0px 0px 154px 119px rgba(74,175,247,0.67);
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        height: 38rem;
+        border: 2px solid black;
+    }
+
+    .mountBack {
+        width: 100vw;
+        height: 40%;
+        position: absolute;
+        left: 0;
+        bottom: 15vh;
+        background-image: url('../static/MountainBack.png');
+        background-size: contain;
+        background-repeat: repeat-x;
     }
 }

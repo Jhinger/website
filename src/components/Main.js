@@ -1,8 +1,9 @@
+import styles from '../styles/main.module.css'
 
 const Main = () => {
     return (
-        <div>
-
+        <div className={styles.container}>
+            Testing.
         </div>
     )
 }
