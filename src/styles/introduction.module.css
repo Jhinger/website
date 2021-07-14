@@ -37,7 +37,7 @@
     left: 0;
     bottom: 10rem;
     -webkit-animation: glow linear 1s infinite; 
-    animation: glow linear 4s infinite;
+    animation: glow linear 3s infinite;
 }
 
 /* Mobile */

@@ -4,15 +4,15 @@ import Logo from '../static/GJLogo.png'
 const Nav = () => {
     return (
         <div className={styles.container}>
-            <div>
+            <div className={styles.logo}>
                 <img src={Logo} alt="GJ" />
             </div>
             <div>
-                <ul>
-                    <li>ABOUT</li>
-                    <li>PROJECTS</li>
-                    <li>RESUME</li>
-                    <li>CONTACT</li>
+                <ul className={styles.list}>
+                    <li className={styles.link}>ABOUT</li>
+                    <li className={styles.link}>PROJECTS</li>
+                    <li className={styles.link}>RESUME</li>
+                    <li className={styles.link}>CONTACT</li>
                 </ul>
             </div>
         </div>
