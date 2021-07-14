@@ -1,9 +1,4 @@
-<div align="center">
-    ![Gurshan Jhinger](./src/static/GJLogo.png)
-</div>
+![Gurshan Jhinger](./src/static/GJLogo.png)
 
-<p align="center">
-    Gurshan Jhinger
-</p>
-
+# jhinger.com - v1
 This is the first iteration of my personal website built with JS, HTML/CSS, and React.
