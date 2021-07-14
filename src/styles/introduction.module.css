@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 100vh;
+}
+
+.mountBack {
+    width: 100vw;
+    height: 45%;
+    position: absolute;
+    left: 0;
+    bottom: 10vh;
+    background-image: url('../static/MountainBack.png');
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.mountFront {
+    width: 100vw;
+    height: 45%;
+    position: absolute;
+    left: 0;
+    bottom: -5vh;
+    background-image: url('../static/MountainFront.png');
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.mountGlow {
+    -webkit-box-shadow:0px 0px 154px 119px rgba(74,175,247,0.67);
+    -moz-box-shadow: 0px 0px 154px 119px rgba(74,175,247,0.67);
+    box-shadow: 0px 0px 154px 119px rgba(74,175,247,0.67);
+    width: 100vw;
+    height: 1rem;
+    position: absolute;
+    left: 0;
+    bottom: 10rem;
+    -webkit-animation: glow linear 1s infinite; 
+    animation: glow linear 4s infinite;
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    .mountBack {
+        width: 100vw;
+        height: 40%;
+        position: absolute;
+        left: 0;
+        bottom: 10vh;
+        background-image: url('../static/MountainBack.png');
+        background-size: contain;
+        background-repeat: repeat-x;
+    }
+}
+
+/* Mount Glow Animation */
+@-webkit-keyframes glow { 
+    0% {
+        -webkit-box-shadow:0px 0px 154px 119px rgba(74,175,247,0.67);
+        -moz-box-shadow: 0px 0px 154px 119px rgba(74,175,247,0.67);
+        box-shadow: 0px 0px 154px 119px rgba(74,175,247,0.67);
+    }
+    35% { 
+        -webkit-box-shadow:0px 0px 154px 119px rgba(250,125,125,0.67);
+        -moz-box-shadow: 0px 0px 154px 119px rgba(250,125,125,0.67);
+        box-shadow: 0px 0px 154px 119px rgba(250,125,125,0.67);
+    }
+    50% {
+        -webkit-box-shadow:0px 0px 154px 119px rgba(140,102,217,0.67);
+        -moz-box-shadow: 0px 0px 154px 119px rgba(140,102,217,0.67);
+        box-shadow: 0px 0px 154px 119px rgba(140,102,217,0.67);
+    }
+    90% { 
+        -webkit-box-shadow:0px 0px 154px 119px rgba(74,175,247,0.67);
+        -moz-box-shadow: 0px 0px 154px 119px rgba(74,175,247,0.67);
+        box-shadow: 0px 0px 154px 119px rgba(74,175,247,0.67);
+    }
+} 
+
+@keyframes glow { 
+    0% { 
+        -webkit-box-shadow:0px 0px 154px 119px rgba(74,175,247,0.67);
+        -moz-box-shadow: 0px 0px 154px 119px rgba(74,175,247,0.67);
+        box-shadow: 0px 0px 154px 119px rgba(74,175,247,0.67);
+    }
+    35% { 
+        -webkit-box-shadow:0px 0px 154px 119px rgba(250,125,125,0.67);
+        -moz-box-shadow: 0px 0px 154px 119px rgba(250,125,125,0.67);
+        box-shadow: 0px 0px 154px 119px rgba(250,125,125,0.67);
+    }
+    50% {
+        -webkit-box-shadow:0px 0px 154px 119px rgba(140,102,217,0.67);
+        -moz-box-shadow: 0px 0px 154px 119px rgba(140,102,217,0.67);
+        box-shadow: 0px 0px 154px 119px rgba(140,102,217,0.67);
+    }
+    90% { 
+        -webkit-box-shadow:0px 0px 154px 119px rgba(74,175,247,0.67);
+        -moz-box-shadow: 0px 0px 154px 119px rgba(74,175,247,0.67);
+        box-shadow: 0px 0px 154px 119px rgba(74,175,247,0.67);
+    }
+}

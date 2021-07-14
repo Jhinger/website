@@ -1,10 +1,8 @@
-import './App.css'
+import Introduction from './components/Introduction';
 
 const App = () => {
 	return (
-		<div className="di">
-			<section></section>
-		</div>
+		<Introduction />
 	)
 }
 
