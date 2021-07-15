@@ -1,14 +1,15 @@
 .intro {
     width: 100%;
     height: 84vh;
-    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
     display: flex;
     align-items: flex-end;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .mountBack {
@@ -16,7 +17,7 @@
     height: 20vh;
     position: absolute;
     left: 0;
-    bottom: 26vh;
+    bottom: 25vh;
     background-image: url('../static/MountainBack.png');
     background-size: contain;
     background-repeat: repeat-x;
@@ -42,7 +43,8 @@
     opacity: 1;
     position: absolute;
     left: 0;
-    bottom: 13rem;
+    bottom: 0rem;
+    margin: 0 0 20vh 0;
     -webkit-animation: glow linear 1s infinite; 
     animation: glow linear 3s infinite;
 }
@@ -102,7 +104,6 @@
         align-items: flex-end;
         width: 100%;
         height: 100vh;
-        border: 2px solid purple;
     }
 
     .mountBack {
