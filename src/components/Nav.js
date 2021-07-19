@@ -9,10 +9,10 @@ const Nav = () => {
             </div>
             <div>
                 <ul className={styles.list}>
-                    <li className={styles.link}>ABOUT</li>
-                    <li className={styles.link}>PROJECTS</li>
-                    <li className={styles.link}>RESUME</li>
-                    <li className={styles.link}>CONTACT</li>
+                    <li className={styles.link}>ABOUT&#127917;</li>
+                    <li className={styles.link}>PROJECTS&#128218;</li>
+                    <li className={styles.link}>RESUME&#128220;</li>
+                    <li className={styles.link}>CONTACT&#128222;</li>
                 </ul>
             </div>
         </div>

@@ -1,0 +1,9 @@
+
+.container {
+    width: 25rem;
+    height: 30rem;
+    border: 2px solid gold;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin: 2rem 2rem 2rem 2rem;
+}

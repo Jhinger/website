@@ -18,7 +18,7 @@ const App = () => {
 	// TODO
 	useEffect(() => {
 		window.innerWidth <= 760 ? setIsMobile(true) : setIsMobile(false)
-	})
+	}, [])
 
 	return (
 		<Wrapper>
