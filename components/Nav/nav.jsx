@@ -16,7 +16,9 @@ const Nav = () => {
                         <a target='_blank'>resume</a>
                     </Link>
                 </li>
-                <li className={styles.listItem}>contact</li>
+                <li className={styles.listItem}>
+                    <a href="mailto:gurshanjhinger@gmail.com" target="_blank" rel="noopener noreferrer">contact</a>
+                </li>
             </ul>
         </div>
     )

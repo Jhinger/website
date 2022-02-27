@@ -12,11 +12,12 @@
 }
 
 .break {
-    height: 1px;
     flex: 0.99;
-    background-color: #2B4D60;
+    background-color: #2B4D60 !important;
+    border: #2B4D60 !important;
     height: 2.5px;
     margin-top: 1rem;
+    opacity: 0.3;
 }
 
 .list {
