@@ -13,11 +13,11 @@ const Nav = () => {
             <ul className={styles.list}>
                 <li className={styles.listItem}>
                     <Link href='/resume.pdf'>
-                        <a target='_blank'>resume</a>
+                        <a target='_blank'>&#128203; resume</a>
                     </Link>
                 </li>
                 <li className={styles.listItem}>
-                    <a href="mailto:gurshanjhinger@gmail.com" target="_blank" rel="noopener noreferrer">contact</a>
+                    <a href="mailto:gurshanjhinger@gmail.com" target="_blank" rel="noopener noreferrer">&#128234; contact</a>
                 </li>
             </ul>
         </div>

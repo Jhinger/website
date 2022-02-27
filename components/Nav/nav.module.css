@@ -21,7 +21,7 @@
 }
 
 .list {
-    margin: 0 6rem 0 0;
+    margin: 0 2rem 0 0;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -30,9 +30,25 @@
 
 .listItem {
     margin: 0 4rem 0 0;
+    font-weight: 300;
+    letter-spacing: 0.015em;
 }
 
 .listItem:hover {
     color: #64B9F7;
     transition: 0.25s;
+}
+
+@media only screen and (max-width: 600px) {
+    .break {
+        display: none;
+    }
+
+    .container {
+        justify-content: center;
+    }
+
+    .logo {
+        display: none;
+    }
 }
