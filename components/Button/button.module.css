@@ -2,7 +2,14 @@
 .container {
     background-color: #64B9F7;
     border-radius: 5px;
-    padding: 0.15rem;
+    padding: 0.2rem;
     height: 2.5rem;
     width: 2.5rem;
+    margin: 0 0.25rem 0 0;
+}
+
+.container:hover {
+    background-color: #CF1991;
+    transition: 0.25s;
+    cursor: pointer;
 }

@@ -18,3 +18,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: inherit;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white;    /* color of the scroll thumb */
+  border-radius: 10rem;       /* roundness of the scroll thumb */
+}

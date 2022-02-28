@@ -1,6 +1,107 @@
+.container,
+.introduction,
+.name,
+.lastName,
+.description 
+{
+    margin: 0;
+}
 
 .container {
-    border: 2px solid red;
     min-width: 100%;
-    min-height: 100vh;
+    min-height: 85vh;
+    margin: 1rem 0 0 2.8rem;
+    border-left: 2px solid rgba(43, 77, 96, 0.3);
+}
+
+.content {
+    position: relative;
+    top: 15rem;
+    left: 20rem;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction {
+    width: fit-content;
+    font-weight: 200;
+    font-size: 1.1rem;
+    letter-spacing: 0.05rem;
+    position: relative;
+    left: 0.5rem;
+}
+
+.name {
+    font-size: 5rem;
+    width: fit-content;
+}
+
+.lastName {
+    color: #64B9F7;
+}
+
+.description {
+    width: 40rem;
+    font-weight: 200;
+    position: relative;
+    left: 0.5rem;
+}
+
+.important {
+    font-weight: 500;
+}
+
+.buttonContainer {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    left: 0.5rem;
+    margin: 1rem 0 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 0;
+        border-left: none; 
+        display: flex;
+        justify-content: center;
+        min-height: 85vh;
+    }
+    
+    .content {
+        top: 10rem;
+        left: 0
+    }
+
+    .introduction {
+        font-size: 3.15vw;
+    }
+
+    .name {
+        font-size: 8.5vw;
+        position: relative;
+        left: 0.2rem;
+    }
+
+    .description {
+        font-size: 3.15vw;
+        width: 80vw;
+        min-width: 300px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
 }
