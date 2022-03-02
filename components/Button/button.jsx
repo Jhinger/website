@@ -20,7 +20,7 @@ const Button = ({ type }) => {
 
     return (
         <div className={styles.container}>
-            <Image src={res} height='100%' width='100%' layout='responsive' />
+            <Image src={res} height='100%' width='100%' layout='responsive' alt={type}/>
         </div>
     )
 }

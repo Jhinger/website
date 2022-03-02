@@ -96,10 +96,56 @@
 @media (min-width: 601px) and (max-width: 900px) {
     .content {
         top: 10rem;
-        left: 6%;
+        left: 7%;
     }
 
     .name {
-        font-size: 6vw;
+        font-size: 3.05rem;
+    }
+
+    .introduction {
+        font-size: 1.05rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+        max-width: 30rem;
+
+    }
+
+    .buttonContainer {
+        margin: 0.75rem 0 0 0;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    .content {
+        top: 10rem;
+        left: 7rem;
+    }
+
+    .name {
+        font-size: 4rem;
+    }
+
+    .introduction {
+        font-size: 1rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1500px) {
+    .content {
+        top: 10rem;
+        left: 10rem;
+    }
+}
+
+@media (min-height: 1500px) {
+    .container {
+        min-height: 40vh;
     }
 }
