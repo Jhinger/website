@@ -1,0 +1,28 @@
+
+.container {
+    min-width: 100%;
+    min-height: 120vh;
+    border: 2px solid blue;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 60%;
+    justify-content: flex-start;
+    letter-spacing: 0.3rem;
+    font-weight: 300;
+}
+
+.content {
+    border: 2px solid greenyellow;
+    width: 60%;
+    height: 60rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
