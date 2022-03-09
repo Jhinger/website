@@ -9,6 +9,7 @@ const ProjectSection = () => {
                 <Project type='canvas' className={styles.project}/>
                 <Project type='thesaurus' className={styles.project}/>
                 <Project type='website' className={styles.project} />
+                <Project type='more' className={styles.project} />
             </div>
         </div>
     )

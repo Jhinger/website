@@ -1,8 +1,7 @@
 
 .container {
     min-width: 100%;
-    min-height: 120vh;
-    border: 2px solid blue;
+    min-height: 130vh;
     overflow-y: hidden;
     display: flex;
     flex-direction: column;
@@ -11,18 +10,21 @@
 }
 
 .title {
-    width: 60%;
+    width: fit-content;
+    width: 50%;
     justify-content: flex-start;
     letter-spacing: 0.3rem;
     font-weight: 300;
+    margin: 2rem;
 }
 
 .content {
-    border: 2px solid greenyellow;
-    width: 60%;
-    height: 60rem;
+    width: 50%;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
 }
 
 

@@ -20,6 +20,12 @@ function getProjectImage(type) {
                 "src" : `/${type}.png`,
                 "href": "https://github.com/Jhinger/CanvasUI"
             }
+
+        default:
+            return {
+                "src" : `/${type}.png`,
+                "href": "https://github.com/Jhinger"
+            }
     }
 }
 
@@ -28,7 +34,7 @@ const Project = ({ type }) => {
 
     return (
         <div className={styles.container}>
-            <Image className={styles.image} src={res.src} width='100%' height='100%' layout='' alt={type}>
+            <Image className={styles.image} src={res.src} width='80%' height='60%' layout='responsive' alt={type} quality={100}>
                 
             </Image>
         </div>
