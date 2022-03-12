@@ -40,6 +40,11 @@
     transition: 0.25s;
 }
 
+.listLink:hover {
+    color: #64B9F7;
+    transition: 0.25s;
+}
+
 @media only screen and (max-width: 600px) {
     .break {
         display: none;

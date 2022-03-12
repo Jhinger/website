@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from './project.module.css'
+import Tilt from 'react-parallax-tilt'
 
 function getProjectImage(type) {
     switch (type) {
@@ -34,9 +35,11 @@ const Project = ({ type }) => {
 
     return (
         <div className={styles.container}>
-            <Image className={styles.image} src={res.src} width='80%' height='60%' layout='responsive' alt={type} quality={100}>
+            <Tilt>
+                <Image className={styles.image} src={res.src} width='80%' height='60%' layout='responsive' alt={type} quality={100}>
                 
-            </Image>
+                </Image>
+            </Tilt>
         </div>
     )
 }

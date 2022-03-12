@@ -9,7 +9,7 @@
 
 .container {
     min-width: 100%;
-    min-height: 85vh;
+    min-height: 55rem;
     margin: 1rem 0 0 2.8rem;
     border-left: 2px solid rgba(43, 77, 96, 0.3);
 }
@@ -146,6 +146,7 @@
 
 @media (min-height: 1500px) {
     .container {
-        min-height: 40vh;
+        min-height: 40rem;
     }
 }
+
