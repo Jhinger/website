@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from './project.module.css'
 import Tilt from 'react-parallax-tilt'
 
@@ -37,12 +38,22 @@ function getProjectImage(type) {
 const Project = ({ type }) => {
     const res = getProjectImage(type);
 
+    const handleRedirect = (res) => {
+        window.open(res.href, '_blank');
+    }
+
     return (
-        <div className={styles.container}>
-            <Tilt>
-                <Image className={styles.image} src={res.src} width='80%' height='60%' layout='responsive' alt={type} quality={100}>
-                
-                </Image>
+        <div className={styles.container} onClick={() => handleRedirect(res)}>
+            <Tilt>   
+                <Image 
+                    className={styles.image} 
+                    src={res.src} 
+                    width='80%' 
+                    height='60%' 
+                    layout='responsive' 
+                    alt={type} 
+                    quality={100} 
+                />
                 
                 <div className={styles.cardHover}>
                     { res.name }
