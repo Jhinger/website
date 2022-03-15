@@ -1,7 +1,7 @@
 
 .container {
     min-width: 100%;
-    min-height: 130vh;
+    min-height: 60rem;
     overflow-y: hidden;
     display: flex;
     flex-direction: column;
@@ -10,8 +10,7 @@
 }
 
 .title {
-    width: fit-content;
-    width: 50%;
+    min-width: 50%;
     justify-content: flex-start;
     letter-spacing: 0.3rem;
     font-weight: 300;
@@ -19,12 +18,34 @@
 }
 
 .content {
-    width: 50%;
+    min-width: 60rem;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
     column-gap: 2rem;
+}
+
+@media (max-width: 600px) {
+    .content {
+        min-width: 20rem;
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+        column-gap: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .container {
+        min-height: 50rem;
+    }
+    
+    .content {
+        min-width: 40rem;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 1rem;
+        column-gap: 1rem;
+    }
 }
 
 
