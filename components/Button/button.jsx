@@ -5,22 +5,35 @@ import styles from './button.module.css'
 function getMediaImage(type) {
     switch (type) {
         case 'github':
-            return '/github.svg'
+            return {
+                "src": "/github.svg",
+                "href": "https://github.com/Jhinger"
+            }
         
         case 'linkedin':
-            return '/linkedin.png'
+            return {
+                "src": "/linkedin.png",
+                "href": "https://www.linkedin.com/in/gurshan-jhinger/"
+            }
 
         case 'discord':
-            return '/discord.png'
+            return {
+                "src": "/discord.png",
+                "href": "https://discord.com/users/142886688321044480"
+            }
     }
 }
 
 const Button = ({ type }) => {
     const res = getMediaImage(type);
 
+    const handleRedirect = (res) => {
+        window.open(res.href, '_blank');
+    }
+
     return (
         <div className={styles.container}>
-            <Image src={res} height='100%' width='100%' layout='responsive' alt={type}/>
+            <Image onClick={() => handleRedirect(res)} src={res.src} height='100%' width='100%' layout='responsive' alt={type} />
         </div>
     )
 }

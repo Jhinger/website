@@ -1,4 +1,9 @@
 
 .container {
-    
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    font-size: 0.8rem;
 }
