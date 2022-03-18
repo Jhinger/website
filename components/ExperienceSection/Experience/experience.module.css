@@ -21,29 +21,13 @@
     transition: 0.3s;
 }
 
-.experienceList {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    width: 100%;
-}
-
-.listItem {
-    list-style: none;
+.positionTitle {
     font-size: 1rem;
-    padding: 1rem;
     font-weight: 300;
 }
 
 @media (max-width: 1000px) {
     .expCardHover {
         font-size: 1.25rem;
-    }
-
-    .experienceList {
-        grid-template-columns: 1fr 1fr 1fr;
-        position: relative;
-        top: 1rem;
-        right: 1rem;
     }
 }

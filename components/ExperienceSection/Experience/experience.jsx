@@ -34,18 +34,8 @@ const Experience = ({ type }) => {
                 />
                 
                 <div className={styles.expCardHover}>
-                    <h3> { res.name } </h3> 
-                    <div>
-                        <ul className={styles.experienceList}>
-                            <li className={styles.listItem}>HTML</li>
-                            <li className={styles.listItem}>CSS</li>
-                            <li className={styles.listItem}>JavaScript</li>
-                            <li className={styles.listItem}>NodeJS</li>
-                            <li className={styles.listItem}>Express</li>
-                            <li className={styles.listItem}>GraphQL</li>
-                            <li className={styles.listItem}>Heroku</li>
-                        </ul>
-                    </div>
+                    { res.name }
+                    <p className={styles.positionTitle}>Software Developer Intern</p>
                 </div>
             </Tilt>
         </div>
