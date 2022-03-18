@@ -1,0 +1,49 @@
+
+.expCardHover {
+    width: 100%;
+    height: 100%;
+    background-color: #64B9F7;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75rem;
+    font-weight: 700;
+    opacity: 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.expCardHover:hover {
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.experienceList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    width: 100%;
+}
+
+.listItem {
+    list-style: none;
+    font-size: 1rem;
+    padding: 1rem;
+    font-weight: 300;
+}
+
+@media (max-width: 1000px) {
+    .expCardHover {
+        font-size: 1.25rem;
+    }
+
+    .experienceList {
+        grid-template-columns: 1fr 1fr 1fr;
+        position: relative;
+        top: 1rem;
+        right: 1rem;
+    }
+}
