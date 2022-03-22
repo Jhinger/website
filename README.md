@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/jhinger/website/main/assets/img/website.png" width="100" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/jhinger/website/main/assets/img/logo.svg" width="100" />
 </div>
 <h1 align="center">
   jhinger.com
@@ -11,4 +11,4 @@
   <img src="https://vercelbadge.vercel.app/api/jhinger/website" alt="Vercel Status" />
 </p>
 
-![demo]((https://raw.githubusercontent.com/jhinger/website/main/assets/img/website.png)
+![demo](https://raw.githubusercontent.com/jhinger/website/main/assets/img/website.png)
