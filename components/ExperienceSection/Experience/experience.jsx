@@ -36,7 +36,7 @@ const Experience = ({ type }) => {
                 <div className={styles.expCardHover}>
                     { res.name }
                     <p className={styles.positionTitle}>Software Developer Intern</p>
-                    <p className={styles.positionLength}>January 2022 - June 2022</p>
+                    <p className={styles.positionLength}>January 2022 - April 2022</p>
                 </div>
             </Tilt>
         </div>
