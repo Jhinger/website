@@ -31,6 +31,7 @@ const Experience = ({ type }) => {
                     layout='responsive' 
                     alt={type} 
                     quality={100} 
+                    priority={true}
                 />
                 
                 <div className={styles.expCardHover}>
