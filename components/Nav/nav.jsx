@@ -7,7 +7,7 @@ const Nav = () => {
     return (
         <div className={styles.container}>
             <div className={styles.logo}>
-                <Image src={logo} alt="Gurshan Jhinger"/>
+                <Image src={logo} alt="Gurshan Jhinger" priority={true}/>
             </div>
             <hr className={styles.break} />
             <ul className={styles.list}>

@@ -33,7 +33,7 @@ const Button = ({ type }) => {
 
     return (
         <div className={styles.container}>
-            <Image onClick={() => handleRedirect(res)} src={res.src} height='100%' width='100%' layout='responsive' alt={type} />
+            <Image onClick={() => handleRedirect(res)} src={res.src} height='100%' width='100%' layout='responsive' alt={type} priority={true}/>
         </div>
     )
 }
