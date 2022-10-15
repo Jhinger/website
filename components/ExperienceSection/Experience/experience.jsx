@@ -1,17 +1,7 @@
 import Image from 'next/image'
 import Tilt from 'react-parallax-tilt'
 import styles from './experience.module.css'
-
-function getExperienceImage(type) {
-    switch(type) {
-        case "pixlworks":
-            return {
-                "src" : `/${type}.png`,
-                "href": "https://pixlworks.com/",
-                "name": "PixlWorks Productions"
-            }
-    }
-}
+import { getExperienceImage } from '../../../util/getExperienceImage'
 
 const Experience = ({ type }) => {
     const res = getExperienceImage(type);
@@ -36,8 +26,8 @@ const Experience = ({ type }) => {
                 
                 <div className={styles.expCardHover}>
                     { res.name }
-                    <p className={styles.positionTitle}>Software Developer Intern</p>
-                    <p className={styles.positionLength}>January 2022 - April 2022</p>
+                    <p className={styles.positionTitle}> { res.positionTitle } </p>
+                    <p className={styles.positionLength}> {res.positionDuration } </p>
                 </div>
             </Tilt>
         </div>
