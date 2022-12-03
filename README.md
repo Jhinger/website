@@ -5,7 +5,7 @@
   jhinger.com
 </h1>
 <p align="center">
-  The first iteration of <a href="https://jhinger.com" target="_blank">jhinger.com</a> built with <a href="https://nextjs.org/" target="_blank">NextJS</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>.
+  The first iteration of <a href="https://jhinger.com" target="_blank">jhinger.com</a> built with <a href="https://nextjs.org/" target="_blank">NextJS</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 <p align="center">
   <img src="https://vercelbadge.vercel.app/api/jhinger/website" alt="Vercel Status" />
