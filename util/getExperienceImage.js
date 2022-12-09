@@ -14,7 +14,7 @@ function getExperienceImage(type) {
                 "src": `/${type}.png`,
                 "href": "https://later.com/",
                 "name": "Later",
-                "positionTitle": "Frontend Developer Co-op",
+                "positionTitle": "Frontend Developer Intern",
                 "positionDuration": "September 2022 - December 2022"
             }
     }
