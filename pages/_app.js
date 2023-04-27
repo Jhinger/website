@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Layout from '../components/Layout'
-import Analytics from '@vercel/analytics'
+import { Analytics } from '@vercel/analytics'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
