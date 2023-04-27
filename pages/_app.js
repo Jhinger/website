@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout from '../components/Layout'
+import Analytics from '@vercel/analytics'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
@@ -13,6 +14,7 @@ function MyApp({ Component, pageProps }) {
 				<link rel="icon" href="/logo.svg" />
 			</Head>
 			
+			<Analytics />
 			<Layout>
 				<Component {...pageProps} /> 
 			</Layout>
